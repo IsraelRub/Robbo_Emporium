@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap');
+
+h5,
+li,
+a {
+    font-family: 'Lato', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Oswald', sans-serif;
+}
+
+h4,
+h6,
+label {
+    font-family: 'Roboto', sans-serif;
+}
+
+img:hover {
+    transition: all 0.5s ease;
+    transform: scale(1.05)
+}
+
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: green;
+    color: white;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 30px;
+    z-index: 100;
+    box-shadow: 0 0 5px gray;
+    transition: all 0.3s ease;
+}
+
+.whatsapp-float:hover {
+    transform: scale(1.2);
+}
+
+.bi-facebook {
+    font-size: larger;
+
+}
+
+.bi-facebook:hover {
+    color: blue;
+
+}
+
+.bi-twitter-x {
+    font-size: larger;
+
+}
+
+.bi-twitter-x:hover {
+    color: gray;
+}
+
+.bi-youtube {
+    font-size: x-large;
+}
+
+.bi-youtube:hover {
+    color: red
+}
+
+
+.bi-linkedin {
+    font-size: larger;
+}
+
+.bi-linkedin:hover {
+    color: lightblue;
+}
+
+.bi-instagram {
+    font-size: larger;
+
+}
+
+.bi-instagram:hover {
+    color: crimson;
+
+}
+
+
+.bi-telegram {
+    font-size: larger;
+}
+
+.bi-telegram:hover {
+    color: royalblue
+}
+
+.shadow-blue {
+    text-shadow: 4px 3px 0 lightskyblue;
+}
